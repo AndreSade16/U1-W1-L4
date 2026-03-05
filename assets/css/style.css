@@ -9,7 +9,7 @@ body {
 header,
 main,
 footer {
-  max-width: 500px;
+  max-width: 40%;
   margin: 0 auto;
   box-shadow: 0px 5px 4px 1px #000000;
 }
@@ -25,6 +25,10 @@ header {
   margin-top: 4%;
   padding: 4%;
   color: white;
+}
+
+header img {
+  width: 85%;
 }
 
 header p {
@@ -182,6 +186,14 @@ thead th {
 /* FORM */
 form {
   height: 1.8em;
+  width: 100%;
+}
+
+#novità-container h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 8%;
+  font-weight: 600;
 }
 
 #novità-container input {
@@ -190,6 +202,7 @@ form {
   font-size: 1.3em;
   padding-left: 1.5%;
   border-bottom: 1px dashed grey;
+  width: 50%;
 }
 
 #novità-container button {
